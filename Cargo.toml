@@ -1,3 +1,19 @@
+[workspace]
+members = [
+    ".",
+    "crates/domain",
+    "crates/application",
+    "crates/ports",
+    "crates/adapters",
+    "crates/platform",
+    "services/trading-api",
+    "services/market-data-api",
+    "services/wallet-worker",
+    "services/risk-worker",
+    "services/liquidation-worker",
+]
+resolver = "2"
+
 [package]
 name = "exchange-engine"
 version = "0.1.0"

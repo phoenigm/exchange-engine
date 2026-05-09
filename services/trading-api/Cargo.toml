@@ -1,0 +1,11 @@
+[package]
+name = "trading-api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+application = { path = "../../crates/application" }
+adapters = { path = "../../crates/adapters" }
+domain = { path = "../../crates/domain" }
+tiny_http = "0.12"
+
