@@ -23,4 +23,3 @@ impl MarketCatalog for InMemoryMarketCatalog {
         self.enabled.contains(&market.0)
     }
 }
-

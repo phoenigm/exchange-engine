@@ -2,4 +2,3 @@
 pub struct ServiceConfig {
     pub service_name: String,
 }
-

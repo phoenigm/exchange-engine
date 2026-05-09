@@ -11,4 +11,3 @@ pub trait EventPublisher: Send + Sync {
 pub trait MarketCatalog: Send + Sync {
     fn is_enabled(&self, market: &MarketId) -> bool;
 }
-
